@@ -9,9 +9,12 @@ const duration = song.duration;
 // ctx.rect(0,146,1300,8);
 // ctx.stroke();
 for(let i=0; i<100; i++){
-   
+    // let random = Math.floor(Math.random()*50);
     let barDiv = document.createElement('div');
-   
+    // barDiv.style.height= random;
+    // barDiv.style.width= '5px';
+    // barDiv.style.marginRight='3px';
+    // barDiv.style.backgroundColor='black';
     barDiv.classList.add('barDiv')
     barDiv.setAttribute('id', i);
     barDiv.addEventListener('click', (e)=>{
